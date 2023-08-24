@@ -1,0 +1,101 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 400px;
+  border-radius: 15px;
+  padding: 15px;
+  background-color:rgb(49, 49, 49)
+}
+
+.screen {
+  padding: 20px 20px;
+  height: 200px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: lightgray;
+  text-align: right;
+}
+
+.screen-last {
+  font-size: 2em;
+}
+
+.screen-current {
+  font-size: 2em;
+}
+
+.clear-command  {
+  display: flex;
+  flex: 1;
+}
+
+.operators{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  padding-top: 20px;
+
+}
+
+.keypad{
+  display: grid;
+  grid-template-columns: repeat(5, 2fr);
+  grid-gap: 10px;
+  padding-top: 20px;
+
+}
+
+.btn {
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 1.5em;
+  font-weight:900; 
+  border: none;
+}
+
+.btn2 {
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 1.5em;
+  font-weight: 900;
+  border: none;
+}
+
+.opp{
+  background-color: rgb(255, 148, 81);
+
+}
+
+.opp:hover,
+.opp:active {
+  background-color: rgb(255, 113, 25);
+
+}
+
+.num:hover,
+.num:active {
+  background-color: rgb(194, 194, 194);
+}
+
+.btn-del {
+  background-color: rgb(255, 74, 74);
+  width:auto;
+}
+
+.btn-del:hover,
+.btn-del:active {
+  background-color: rgb(255, 37, 37);
+}
+
